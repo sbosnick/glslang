@@ -1,0 +1,5 @@
+option('ENABLE_AMD_EXTENSIONS', type:'boolean', value: true, description: 'Enables support of AMD-specific extensions')
+option('ENABLE_GLSLANG_BINARIES', type: 'boolean', value: true, description: 'Builds glslangValidator and spirv-remap')
+option('ENABLE_NV_EXTENSIONS', type: 'boolean', value: true, description: 'Enables support of Nvidia-specific extensions')
+option('ENABLE_HLSL', type: 'boolean', value: true, description: 'Enables HLSL input support')
+
